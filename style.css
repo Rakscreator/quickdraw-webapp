@@ -4,9 +4,8 @@ body{
 }
 h1{
     font-family:'Freehand',cursive ;
-    font-size: 50px 
-    
-
+    font-size: 50px ;
+    margin-left: 120px;
 }
 p{
     font-family: 'Satisfy',cursive;
@@ -27,7 +26,27 @@ p{
     float: right;
     margin-right: 40px;
 }
+.titlem{
+    font-family: 'Satisfy',cursive;
+}
 #show_sketch{
     float: right;
     margin-right: 30px;
+}
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:100px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
 }
